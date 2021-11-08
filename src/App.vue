@@ -98,8 +98,8 @@ export default {
         let answers = [];
         answers.push(item.correct_answer);
         item.incorrect_answers.forEach(incorrectAnswer => answers.push(incorrectAnswer));
-        acc.push(answers);
-        return acc.sort();
+        acc.push(answers.sort());
+        return acc;
       }, []);
       this.correctAnswers = response.data.results.reduce((acc, item) => {
         acc.push(item.correct_answer);
