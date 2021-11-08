@@ -1,5 +1,7 @@
 # vue-quiz
 
+https://bogdangor67.github.io/vue-quiz/
+
 ## Project setup
 ```
 npm install
